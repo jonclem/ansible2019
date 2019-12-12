@@ -42,4 +42,4 @@ For versions 5.0.0, 5.0.2, 5.0.8, 5.0.10, 5.0.12 use loader version 1.7.1 (https
 
 Loader designed only for x64 Windows.
 
-Administrative privilege is required.
+Administrative privilege is required.# ansible2019
