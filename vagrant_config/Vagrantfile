@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
     ansiblemgmt_config.vm.provision :shell, path: "bootstrap-mgmt.sh"
 end
 
-  # create load balancer
+  # create basic win2019 server
   config.vm.define :w2019a do |w2019a_config|
     w2019a_config.vm.box = "jborean93/WindowsServer2019"
     w2019a_config.vm.hostname = "w2019a"
