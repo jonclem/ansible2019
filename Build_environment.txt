@@ -1,0 +1,9 @@
+Readme for the build
+1. Download Vagrant as per the Readme and install on your environment
+2. Download VirtualBox as a Hypervisor to be used.
+3. Look at the vagrant config and make changes to suit your environment.
+4. Once the Vm's are built run the .ps1 script on the windows2019 for the winrm service.
+5. On the ubuntu box install ansible and make the changes to suit your host.
+6. Test connectivity between the ansible control and the windows vm.
+7. Then you can copy the ansible playbooks and make changes where necessary to run the playbook.
+8. I have tried and tested on my environment numerous times and everything works like a charm.
