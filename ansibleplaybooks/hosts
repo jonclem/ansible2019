@@ -1,0 +1,11 @@
+# file: hosts
+[win1]
+172.18.1.222
+
+[win1:vars]
+ansible_user=administrator
+ansible_password=Passw0rd01
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+
+

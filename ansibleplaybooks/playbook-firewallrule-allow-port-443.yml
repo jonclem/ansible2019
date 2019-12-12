@@ -1,0 +1,16 @@
+# file: playbook-install-firefox.yml
+---
+- name: firewall rule to allow port 443 with ansible
+  hosts: all
+  tasks:
+    - name: Allow port 443
+      win_firewall_rule:
+        name: Port 443
+        localport: 443
+        action: allow
+        direction: in
+        protocol: tcp
+        state: present
+        enabled: yes
+
+

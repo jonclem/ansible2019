@@ -1,0 +1,16 @@
+# file: playbook-install-firefox.yml
+---
+- name: firewall rule to allow port 80 with ansible
+  hosts: all
+  tasks:
+    - name: Allow port 80
+      win_firewall_rule:
+        name: Port 80
+        localport: 80
+        action: allow
+        direction: in
+        protocol: tcp
+        state: present
+        enabled: yes
+
+

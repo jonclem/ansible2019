@@ -1,0 +1,10 @@
+# file: playbook-install-firefox.yml
+---
+- name: test chocolatey with ansible
+  hosts: all
+  tasks:
+    - name: Install Google Chrome
+      win_chocolatey:
+        name: Google-Chrome-x64
+        state: present
+

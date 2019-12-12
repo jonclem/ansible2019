@@ -1,0 +1,13 @@
+# file: playbook-install-firefox.yml
+---
+- name: test  with ansible
+  hosts: all
+  tasks:
+    - name: Add user AutomationTest
+      win_user:
+        name: AutomationTest
+        password: Root_12345
+        state: present
+        groups:
+          - Users
+

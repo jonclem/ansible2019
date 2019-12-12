@@ -1,0 +1,10 @@
+# file: playbook-install-firefox.yml
+---
+- name: touch a file
+  hosts: all
+  tasks:
+    - name: touch a file
+      win_file:
+        path: C:\Temp\foo.conf
+        state: touch
+

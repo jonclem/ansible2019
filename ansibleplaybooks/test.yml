@@ -1,0 +1,7 @@
+# file: playbook-install-firefox.yml
+---
+- name: touch a file
+  hosts: all
+  tasks:
+    - debug: msg="Ansible is working!"
+

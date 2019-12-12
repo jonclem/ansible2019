@@ -1,0 +1,10 @@
+# file: playbook-install-firefox.yml
+---
+- name: test chocolatey with ansible
+  hosts: all
+  tasks:
+    - name: Install 7-zip
+      win_chocolatey:
+        name: 7zip
+        state: absent
+
