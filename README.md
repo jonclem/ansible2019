@@ -32,14 +32,6 @@ x64 Windows 7/8/8.1/10;
 
 VirtualBox 6.0.0 and later versions.
 
-For version below VirtualBox 6.0 please use older release of this loader.
 
-For versions 5.2.x use loader version 1.9.0 (https://github.com/hfiref0x/VBoxHardenedLoader/releases/tag/v1.9.0)
-
-For versions 5.1.x use loader version 1.8.0 or 1.8.2 (https://github.com/hfiref0x/VBoxHardenedLoader/releases/tag/v1.8.2)
-
-For versions 5.0.0, 5.0.2, 5.0.8, 5.0.10, 5.0.12 use loader version 1.7.1 (https://github.com/hfiref0x/VBoxHardenedLoader/releases/tag/v1.7.1)
-
-Loader designed only for x64 Windows.
 
 Administrative privilege is required.# ansible2019
