@@ -26,4 +26,4 @@ VirtualBox 6.0.0 and later versions.
 https://www.virtualbox.org/
 
 
-Administrative privilege is required.# ansible2019
+Administrative privilege is required.
